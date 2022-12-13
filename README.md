@@ -1,2 +1,3 @@
 # calday.one
-My personal website build with the React.js framework
+
+Cal's personal website build with the React.js framework
