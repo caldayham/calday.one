@@ -1,8 +1,11 @@
+import { Router } from "react-router-dom";
+import Header from "./components/header";
+
 function App() {
   return (
-    <div >
-      calday website
-    </div>
+    <Router>
+      <Header/> 
+    </Router>
   );
 }
 
