@@ -1,9 +1,20 @@
 import React from 'react'
+import styled from 'styled-components'
 
-const footer = () => {
+const FooterWrapper = styled.div`
+    border-top: 1px solid var(--lines);
+    padding: 20px 10px;
+    margin-top: 80px;
+`;
+
+const Footer = () => {
   return (
-    <div>footer</div>
+    <FooterWrapper>
+    <p>
+        © Copyright 2022 <a href="/home">Cal Day</a>. All rights reserved.
+    </p>
+</FooterWrapper>
   )
 }
 
-export default footer
+export default Footer

@@ -4,6 +4,11 @@ const BodyContainer = styled.div`
 
 `;
 
+const ContentWrapper = styled.div`
+
+`;
+
 export {
     BodyContainer,
+    ContentWrapper
 };
