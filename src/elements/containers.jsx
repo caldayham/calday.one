@@ -5,7 +5,7 @@ const BodyContainer = styled.div`
 `;
 
 const ContentWrapper = styled.div`
-
+    padding: 0px 10px;
 `;
 
 export {

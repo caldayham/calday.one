@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
-    margin-bottom: 60px;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--lines);
     padding-right: 10px;
@@ -76,7 +75,7 @@ const Header = () => {
                 <h1>Cal Day</h1>
                 <div>
                     <Checkbox type="checkbox" id="checkbox"/>
-                    <Label for="checkbox">
+                    <Label htmlFor="checkbox">
                         <Ball/>
                     </Label>
                 </div>

@@ -1,0 +1,50 @@
+:root {
+    --text: rgb(10,10,10);
+    --link: rgb(0,0,255);
+    --bg: rgb(255,255,255);
+    --lines: rgb(200,200,200);
+
+    --width: 1000px;
+}
+html[data-theme='light'] {
+/*light theme*/
+    --text: rgb(10,10,10);
+    --link: rgb(0,0,255);
+    --bg: rgb(255,255,255);
+    --lines: rgb(200,200,200);
+}
+html[data-theme='dark'] {
+/*dark theme*/
+    --text: rgb(240,240,240);
+    --link: rgb(255,100,100);
+    --bg: rgb(30, 30, 30);
+    --lines: rgb(100,100,100);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    margin: 0px;
+
+    display: flex;
+    justify-content: center;
+    transition: all 0.2s ease;
+
+    color: var(--text);
+}
+
+.root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    max-width: var(--width);
+    margin: 0px 20px;
+    min-height: 100vh;
+    border-right: 1px solid var(--lines);
+    border-left: 1px solid var(--lines);
+}
