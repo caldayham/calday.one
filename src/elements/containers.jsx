@@ -6,6 +6,7 @@ const BodyContainer = styled.div`
 
 const ContentWrapper = styled.div`
     padding: 0px 10px;
+    min-height: calc(100vh);
 `;
 
 export {

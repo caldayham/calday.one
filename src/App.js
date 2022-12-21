@@ -1,10 +1,11 @@
 import { Fragment } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
-import Header from "./components/Header.jsx";
+import Header from "./components/header/Header.jsx";
 import ScrollToTop from "./functions/ScrollToTop.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
 
-import ContactPage from "./pages/ContactPage.jsx";
+import ConnectPage from "./pages/ConnectPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 
 const App = () => {
@@ -18,7 +19,8 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/home" element={<HomePage />} />
-          <Route exact path="/contact" element={<ContactPage />} />
+          <Route exact path="/about" element={<AboutPage />} />
+          <Route exact path="/connect" element={<ConnectPage />} />
         </Routes>
       </Fragment>
 

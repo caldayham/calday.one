@@ -1,6 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const HeaderWrapper = styled.div`
     padding-bottom: 20px;
@@ -49,6 +47,8 @@ const Nav = styled.nav`
 `;
 const SearchWrapper = styled.div`
     margin-top: 20px;
+    display: flex;
+    gap: 6px;
 `;
 const SearchInput = styled.input`
     background-color: transparent;
@@ -66,41 +66,21 @@ const SearchButton = styled.button`
     color: var(--text);
     font-weight: 600;
     transition: all 0.2s ease;
+
+    :hover {
+        background-color: var(--text);
+        color: var(--bg);
+    }
 `;
 
-const Header = () => {
-  return (
-    <HeaderWrapper>
-            <HeaderTopLine>
-                <h1>Cal Day</h1>
-                <div>
-                    <Checkbox type="checkbox" id="checkbox"/>
-                    <Label htmlFor="checkbox">
-                        <Ball/>
-                    </Label>
-                </div>
-            </HeaderTopLine>
-            <Nav>
-                <Link to='/home'>home</Link>
-                |
-                <Link to='/about'>about</Link>
-                |
-                <Link to='/thoughts'>thoughts</Link>
-                |
-                <Link to='/projects'>projects</Link>
-                |
-                <Link to='/lessons'>lessons</Link>
-                |
-                <Link to='/contact'>contact</Link>
-                |
-                <Link to='/login'>login</Link>
-            </Nav>
-            <SearchWrapper>
-                <SearchInput placeholder="search content"/>
-                <SearchButton>Go</SearchButton>
-            </SearchWrapper>
-        </HeaderWrapper>
-  )
+export {
+    HeaderTopLine,
+    HeaderWrapper,
+    SearchButton,
+    SearchInput,
+    SearchWrapper,
+    Nav,
+    Checkbox,
+    Ball,
+    Label,
 }
-
-export default Header

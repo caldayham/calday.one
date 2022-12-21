@@ -2,7 +2,7 @@ import React from 'react'
 import { ContentWrapper } from '../elements/containers'
 import { copyToClip } from '../functions/copy-text'
 
-const ContactPage = () => {
+const ConnectPage = () => {
     return (
         <ContentWrapper>
             <h3>Send personal hello</h3>
@@ -52,4 +52,4 @@ const ContactPage = () => {
     )
 }
 
-export default ContactPage
+export default ConnectPage
