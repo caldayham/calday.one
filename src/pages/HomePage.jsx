@@ -1,11 +1,16 @@
 import React from 'react'
-import { ContentWrapper } from '../elements/containers'
+import { ContentWrapper, ImageDeck } from '../elements/containers'
+import { MainImg } from '../elements/images'
 
 const HomePage = () => {
   return (
     <ContentWrapper>
     <p>
         People who are effective and interested, affect and advance. Be antifragile.
+        <br />
+        Work is action with a purpose.
+        <br />
+        I will never stop desiring results and taking action to achieve them, I will never stop working.
     </p>
     <br />
     <p>
@@ -22,15 +27,15 @@ const HomePage = () => {
         radically volatile.
     </p>
     <br />
-    <div class="image-deck">
-        <img src="../../visual-media/baby-chick.jpg" alt="baby-chick"/>
-        <img src="../../visual-media/cal-felix.jpg" alt="cal-felix"/>
-        <img src="../../visual-media/cal-fynn.jpg" alt="cal-fynn"/>
-        <img src="../../visual-media/cal-rattlesnake-cooper.jpg" alt="cal-rattlesnake-cooper"/>
-        <img src="../../visual-media/mum-dad-cal.jpg" alt="mum-dad-cal"/>
-        <img src="../../visual-media/dad-cal.jpg" alt="dad-cal"/>
-        <img src="../../visual-media/fam-at-beach.jpg" alt="fam-at-beach"/>
-    </div>
+    <ImageDeck>
+        <MainImg src="/images/baby-chick.jpg" alt="baby-chick"/>
+        <MainImg src="/images/cal-felix.jpg" alt="cal-felix"/>
+        <MainImg src="/images/cal-fynn.jpg" alt="cal-fynn"/>
+        <MainImg src="/images/cal-rattlesnake-cooper.jpg" alt="cal-rattlesnake-cooper"/>
+        <MainImg src="/images/mum-dad-cal.jpg" alt="mum-dad-cal"/>
+        <MainImg src="/images/dad-cal.jpg" alt="dad-cal"/>
+        <MainImg src="/images/fam-at-beach.jpg" alt="fam-at-beach"/>
+    </ImageDeck>
 </ContentWrapper>
   )
 }

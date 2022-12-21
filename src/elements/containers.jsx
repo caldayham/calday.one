@@ -9,7 +9,14 @@ const ContentWrapper = styled.div`
     min-height: calc(100vh);
 `;
 
+const ImageDeck = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+`;
+
 export {
     BodyContainer,
-    ContentWrapper
+    ContentWrapper,
+    ImageDeck
 };

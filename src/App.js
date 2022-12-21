@@ -7,6 +7,10 @@ import AboutPage from "./pages/AboutPage.jsx";
 
 import ConnectPage from "./pages/ConnectPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
+import ThoughtsPage from "./pages/ThoughtsPage.jsx";
+import LessonsPage from "./pages/LessonsPage.jsx";
+import ProjectsPage from "./pages/ProjectsPage.jsx";
 
 const App = () => {
   return (
@@ -20,7 +24,11 @@ const App = () => {
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/home" element={<HomePage />} />
           <Route exact path="/about" element={<AboutPage />} />
+          <Route exact path="/thoughts" element={<ThoughtsPage />} />
+          <Route exact path="/lessons" element={<LessonsPage />} />
+          <Route exact path="/projects" element={<ProjectsPage />} />
           <Route exact path="/connect" element={<ConnectPage />} />
+          <Route exact path="/login" element={<LoginPage />} />
         </Routes>
       </Fragment>
 
