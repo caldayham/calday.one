@@ -27,7 +27,7 @@ const Header = () => {
                 |
                 <Link to='/connect'>connect</Link>
                 |
-                <Link to='/login'>login</Link>
+                <Link to='/more'>more</Link>
             </Nav>
             <SearchWrapper>
                 <SearchInput placeholder="search content"/>

@@ -1,10 +1,10 @@
 import React from 'react'
 import { ContentWrapper } from '../elements/containers'
 
-const LoginPage = () => {
+const MorePage = () => {
   return (
-    <ContentWrapper>LoginPage</ContentWrapper>
+    <ContentWrapper>MorePage</ContentWrapper>
   )
 }
 
-export default LoginPage
+export default MorePage

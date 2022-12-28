@@ -9,14 +9,21 @@ const ContentWrapper = styled.div`
     min-height: calc(100vh);
 `;
 
-const ImageDeck = styled.div`
+const ImgDeck = styled.div`
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
 `;
 
+const ImgWrapper = styled.div`
+    max-width: 131px;
+`;
+
 export {
+    ImgWrapper,
     BodyContainer,
     ContentWrapper,
-    ImageDeck
+    ImgDeck
 };
