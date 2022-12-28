@@ -7,6 +7,7 @@ const HeaderWrapper = styled.div`
     padding-left: 10px;
 `;
 const HeaderTopLine = styled.div`
+    color: ${props => props.theme.text};
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -43,7 +44,6 @@ const Nav = styled.nav`
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    color: var(--lines);
 `;
 const SearchWrapper = styled.div`
     margin-top: 20px;
