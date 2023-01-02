@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Ball, Checkbox, HeaderTopLine, HeaderWrapper, Label, Nav, SearchButton, SearchInput, SearchWrapper } from './headerStyles.js';
 
-const Header = (theme) => {
-    console.log(theme);
-    
+const Header = (props) => {
+
     const themeToggler = () => {
-        theme.theme === 'light' ? theme.setTheme('dark') : theme.setTheme('light');
+
+        props.theme === 'light' ? props.setTheme('dark') && localStorage.setItem('theme', 'dark')
+            : (props.setTheme('light') && localStorage.setItem('theme', 'light'));
     };
 
     return (

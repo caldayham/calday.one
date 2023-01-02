@@ -17,7 +17,7 @@ import { lightTheme, darkTheme, GlobalStyles } from "./elements/themes";
 
 const App = () => {
 
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState(localStorage.getItem('theme'));
 
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
