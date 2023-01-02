@@ -1,13 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Ball, Checkbox, HeaderTopLine, HeaderWrapper, Label, Nav, SearchButton, SearchInput, SearchWrapper } from './headerStyles.js';
+import { CheckBox, CheckBoxLabel, CheckBoxWrapper, HeaderTopLine, HeaderWrapper, Nav, SearchButton, SearchInput, SearchWrapper } from './headerStyles.js';
 
 const Header = (props) => {
 
     const themeToggler = () => {
 
-        props.theme === 'light' ? props.setTheme('dark') && localStorage.setItem('theme', 'dark')
-            : (props.setTheme('light') && localStorage.setItem('theme', 'light'));
+        const changeThemeDark = () => {
+            console.log('change theme dark');
+            props.setTheme('dark');
+            localStorage.setItem('theme', 'dark');
+        };
+        const changeThemeLight = () => {
+            console.log('change theme light');
+            props.setTheme('light');
+            localStorage.setItem('theme', 'light');
+        };
+
+        props.theme === 'light' ? changeThemeDark() : changeThemeLight();
     };
 
     return (
@@ -15,11 +25,10 @@ const Header = (props) => {
             <HeaderTopLine>
                 <h1>Cal Day</h1>
                 <div>
-                    <Checkbox type="checkbox" id="checkbox" />
-                    <button onClick={() => themeToggler()}>theme toggle</button>
-                    <Label htmlFor="checkbox">
-                        <Ball />
-                    </Label>
+                    <CheckBoxWrapper>
+                        <CheckBox id="checkbox" type="checkbox" onChange={() => themeToggler()}/>
+                        <CheckBoxLabel htmlFor="checkbox" />
+                    </CheckBoxWrapper>
                 </div>
             </HeaderTopLine>
             <Nav>
