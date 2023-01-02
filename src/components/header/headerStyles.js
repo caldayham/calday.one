@@ -58,7 +58,7 @@ const CheckBoxLabel = styled.label`
   width: 42px;
   height: 26px;
   border-radius: 15px;
-  background: #bebebe;
+  background: ${props => props.theme.text};
   cursor: pointer;
   &::after {
     content: "";
@@ -67,8 +67,7 @@ const CheckBoxLabel = styled.label`
     width: 18px;
     height: 18px;
     margin: 3px;
-    background: #ffffff;
-    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    background: ${props => props.theme.bg};
     transition: 0.2s;
   }
 `;
@@ -79,7 +78,7 @@ const CheckBox = styled.input`
   width: 42px;
   height: 26px;
   &:checked + ${CheckBoxLabel} {
-    background: #4fbe79;
+    background: ${props => props.theme.text};
     &::after {
       content: "";
       display: block;

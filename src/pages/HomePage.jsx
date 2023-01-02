@@ -15,7 +15,8 @@ const HomePage = () => {
                 Hello, welcome to my public web ui. I am <a href="/home">Cal Day</a>, a 21 year old male from Canada
                 and the USA. I enjoy effective problem finding and solving (aka solution derivation), solution simplification, and systematization -
                 currently within the domains of manufacturing, software, business, finance, and health. I'm an optimist,
-                especially towards radical self-growth. I also enjoy sharing time with family and friends, spirited debate and riffing, and the occasional trip.
+                especially towards radical self-growth. I also enjoy sharing time with family and friends, spirited debate and riffing, 
+                and much more.
             </p>
             <br />
             <p>
