@@ -26,7 +26,6 @@ html[data-theme='dark'] {
 }
 
 .body {
-    background-color: var(--bg);
     display: flex;
     align-items: center;
     margin: 0px;
@@ -34,8 +33,6 @@ html[data-theme='dark'] {
     display: flex;
     justify-content: center;
     transition: all 0.2s ease;
-
-    color: var(--text);
 }
 
 .root {

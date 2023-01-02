@@ -3,7 +3,11 @@ import { ContentWrapper } from '../elements/containers'
 
 const AboutPage = () => {
   return (
-    <ContentWrapper>AboutPage</ContentWrapper>
+    <ContentWrapper>
+      <p>
+        I value effective action, in myself and in others.
+      </p>
+    </ContentWrapper>
   )
 }
 
