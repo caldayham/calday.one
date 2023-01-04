@@ -1,7 +1,7 @@
 import { Fragment, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from "./components/Footer.jsx";
-import Header from "./components/headers/Header.jsx";
+import Header from "./components/Header/Header.jsx";
 import ScrollToTop from "./functions/ScrollToTop.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 
