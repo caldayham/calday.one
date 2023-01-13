@@ -43,8 +43,6 @@ const Header = (props) => {
                 <Link to='/lessons'>lessons</Link>
                 |
                 <Link to='/connect'>connect</Link>
-                |
-                <Link to='/more'>more</Link>
             </Nav>
             <SearchWrapper>
                 <SearchInput placeholder="search content" />

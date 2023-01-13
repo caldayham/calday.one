@@ -21,7 +21,7 @@ const ConnectPage = () => {
             <br />
             <h3>Business links</h3>
             <br />
-            <p>Print REM: <a href="https://printrem.com" alt="print rem link" rel="noreferrer" target="_blank">https://printrem.com</a></p>
+            <p>Reman Co.: <a href="https://reman.co" alt="reman link" rel="noreferrer" target="_blank">https://reman.co</a></p>
             <p>Ledges: <a href='https://ledges.io' alt="ledges link" rel="noreferrer" target="_blank">https://ledges.io</a></p>
             <br />
             <br />

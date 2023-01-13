@@ -3,7 +3,7 @@ import { ContentWrapper } from '../elements/containers'
 
 const LessonsPage = () => {
   return (
-    <ContentWrapper>LessonsPage</ContentWrapper>
+    <ContentWrapper>public lessons posts coming soon!</ContentWrapper>
   )
 }
 
