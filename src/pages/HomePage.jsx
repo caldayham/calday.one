@@ -7,7 +7,7 @@ const HomePage = () => {
         <ContentWrapper>
             <p>
                 <h3>TLDR</h3>
-                People who are effective and interested, affect and advance. Be <a href='https://en.wikipedia.org/wiki/Antifragile' target='_blank'>antifragile</a>.
+                People who are effective and interested, affect and advance. Be <a href='https://en.wikipedia.org/wiki/Antifragile' target='_blank' rel="noreferrer">antifragile</a>.
                 <br />
                 Find purpose and take action towards it.
             </p>
@@ -25,7 +25,7 @@ const HomePage = () => {
             <br />
             <p>
                 <h3>My Goal Character Traits</h3>
-                Interested, active, effective, prolific, antifragile, integrous, optimistic, autonomous, knowledgable, logical,
+                Interested, active, effective, prolific, antifragile, integrous, optimistic, autonomous, knowledgeable, logical,
                 radically volatile.
             </p>
             <br />
