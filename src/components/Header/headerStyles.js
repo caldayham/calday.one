@@ -27,23 +27,23 @@ const SearchWrapper = styled.div`
 `;
 const SearchInput = styled.input`
     background-color: transparent;
-    border: 1px solid var(--text);
+    border: 1px solid ${props => props.theme.text};
     padding: 4px;
     border-radius: 4px;
-    color: var(--text);
+    color: ${props => props.theme.text};
     outline: none;
 `;
 const SearchButton = styled.button`
     background-color: transparent;
-    border: 1px solid var(--text);
+    border: 1px solid ${props => props.theme.text};
     padding: 4px;
     border-radius: 4px;
-    color: var(--text);
+    color: ${props => props.theme.text};
     font-weight: 600;
     transition: all 0.2s ease;
 
     :hover {
-        background-color: var(--text);
+        background-color: ${props => props.theme.text};
         color: var(--bg);
     }
 `;
@@ -60,35 +60,25 @@ const CheckBoxLabel = styled.label`
   border-radius: 15px;
   background: ${props => props.theme.text};
   cursor: pointer;
-  &::after {
-    content: "";
-    display: block;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-    margin: 3px;
-    background: ${props => props.theme.bg};
-    transition: 0.2s;
-  }
 `;
+
+const ToggleBall = styled.div`
+  position: absolute;
+  margin-top: ${props => props.theme.text == 'black'? '3px' : '2px'};
+  margin-left: ${props => props.theme.text == 'black'? '3px' : '18px'};
+  height: ${props => props.theme.text == 'black'? '20px' : '22px'};
+  width: ${props => props.theme.text == 'black'? '20px' : '22px'};
+  border-radius: 50%;
+  background: ${props => props.theme.bg};
+  transition: all 0.2s ease;
+`;
+
 const CheckBox = styled.input`
   opacity: 0;
   z-index: 1;
   border-radius: 15px;
   width: 42px;
   height: 26px;
-  &:checked + ${CheckBoxLabel} {
-    background: ${props => props.theme.text};
-    &::after {
-      content: "";
-      display: block;
-      border-radius: 50%;
-      width: 18px;
-      height: 18px;
-      margin-left: 21px;
-      transition: 0.2s;
-    }
-  }
 `;
 
 export {
@@ -101,4 +91,5 @@ export {
     SearchInput,
     SearchWrapper,
     Nav,
+    ToggleBall,
 }

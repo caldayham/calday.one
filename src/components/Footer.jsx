@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterWrapper = styled.div`
-    border-top: 1px solid var(--lines);
+    border-top: 1px solid ${props => props.theme.lines};
     padding: 20px 10px;
     margin-top: 80px;
 `;

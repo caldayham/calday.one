@@ -35,8 +35,8 @@ const HomePage = () => {
             </p>
             <ImgDeck>
                 <ImgWrapper>
-                    <MainImg src="/images/mum-dad-cal.jpg" alt="mum-dad-cal" />
-                    <p>2001</p>
+                    <MainImg src="/images/2023-hike.jpg" alt="mum-dad-cal" />
+                    <p>2023</p>
                 </ImgWrapper>
                 <ImgWrapper>
                     <MainImg src="/images/dad-cal.jpg" alt="dad-cal" />

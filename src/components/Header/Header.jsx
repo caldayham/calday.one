@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { CheckBox, CheckBoxLabel, CheckBoxWrapper, HeaderTopLine, HeaderWrapper, Nav, SearchButton, SearchInput, SearchWrapper } from './headerStyles.js';
+import { CheckBox, CheckBoxLabel, CheckBoxWrapper, HeaderTopLine, HeaderWrapper, Nav, SearchButton, SearchInput, SearchWrapper, ToggleBall } from './headerStyles.js';
 
 const Header = (props) => {
 
@@ -27,7 +27,9 @@ const Header = (props) => {
                 <div>
                     <CheckBoxWrapper>
                         <CheckBox id="checkbox" type="checkbox" onChange={() => themeToggler()}/>
-                        <CheckBoxLabel htmlFor="checkbox" />
+                        <CheckBoxLabel htmlFor="checkbox">
+                            <ToggleBall />
+                        </CheckBoxLabel>
                     </CheckBoxWrapper>
                 </div>
             </HeaderTopLine>
