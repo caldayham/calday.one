@@ -64,10 +64,10 @@ const CheckBoxLabel = styled.label`
 
 const ToggleBall = styled.div`
   position: absolute;
-  margin-top: ${props => props.theme.text == 'black'? '3px' : '2px'};
-  margin-left: ${props => props.theme.text == 'black'? '3px' : '18px'};
-  height: ${props => props.theme.text == 'black'? '20px' : '22px'};
-  width: ${props => props.theme.text == 'black'? '20px' : '22px'};
+  margin-top: ${props => props.theme.text === 'black'? '3px' : '2px'};
+  margin-left: ${props => props.theme.text === 'black'? '3px' : '18px'};
+  height: ${props => props.theme.text === 'black'? '20px' : '22px'};
+  width: ${props => props.theme.text === 'black'? '20px' : '22px'};
   border-radius: 50%;
   background: ${props => props.theme.bg};
   transition: all 0.2s ease;

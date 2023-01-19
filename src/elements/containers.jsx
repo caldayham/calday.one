@@ -20,12 +20,19 @@ const ImgDeck = styled.div`
 `;
 
 const ImgWrapper = styled.div`
-    max-width: 131px;
+    max-width: 182px;
+`;
+
+const ImgCarousel = styled.div`
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 `;
 
 export {
     ImgWrapper,
     BodyContainer,
     ContentWrapper,
-    ImgDeck
+    ImgDeck,
+    ImgCarousel,
 };
