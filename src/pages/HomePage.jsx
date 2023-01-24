@@ -1,20 +1,20 @@
 import React from 'react'
-import { ContentWrapper} from '../elements/containers'
+import { ContentWrapper } from '../elements/containers'
 import { calImgData } from '../data/cal-img-data'
 import ImgCarousel from '../components/ImgCarousel/ImgCarousel'
 
 const HomePage = () => {
     return (
         <ContentWrapper>
-            <p>
                 <h3>TLDR</h3>
+            <p>
                 People who are effective and interested, affect and advance. Be <a href='https://en.wikipedia.org/wiki/Antifragile' target='_blank' rel="noreferrer">antifragile</a>.
                 <br />
                 Find purpose and take action towards it.
             </p>
             <br />
-            <p>
                 <h3>Quick Intro</h3>
+            <p>
                 Hello! welcome to my public wiki.
                 <br />
                 I am <a href="/connect">Cal Day</a>, a 21 year old male from Canada
@@ -24,18 +24,18 @@ const HomePage = () => {
                 and much more.
             </p>
             <br />
-            <p>
                 <h3>My Goal Character Traits</h3>
+            <p>
                 Interested, active, effective, prolific, antifragile, integrous, optimistic, autonomous, knowledgeable, logical,
                 radically volatile.
             </p>
             <br />
             <section aria-label='cal photos'>
+                <h3>Images of Cal</h3>
                 <p>
-                    <h3>Images of Cal</h3>
                     We are visual creatures, here are some pictures of myself throughout the years.
                 </p>
-                <ImgCarousel imgs={calImgData} />
+                <ImgCarousel slides={calImgData} />
             </section>
         </ContentWrapper>
     )

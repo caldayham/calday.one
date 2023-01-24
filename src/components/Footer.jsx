@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
     <p>
-        © Copyright 2022 <a href="/home">Cal Day</a>. All rights reserved.
+        © Copyright 2023 <a href="/home">Cal Day</a>. All rights reserved.
     </p>
 </FooterWrapper>
   )
