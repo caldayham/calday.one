@@ -32,9 +32,6 @@ const HomePage = () => {
             <br />
             <section aria-label='cal photos'>
                 <h3>Images of Cal</h3>
-                <p>
-                    We are visual creatures, here are some pictures of myself throughout the years.
-                </p>
                 <ImgCarousel slides={calImgData} />
             </section>
         </ContentWrapper>

@@ -19,19 +19,27 @@ const ImgCarousel = ({ slides }) => {
     };
 
     return (
-        <OuterWrapper>
-            <InnerWrapper>
-                <SideSlide slideData={slides[currentIndex - 1] ? slides[currentIndex - 1] : slides[slides.length - 1]}>
-                    <ScrollButton onClick={() => HandleScrollClick('prev')} side='left '>↶</ScrollButton>
-                </SideSlide>
-                <CurrentSlide slideData={slides[currentIndex]}>
-                    <MainSlideText>{slides[currentIndex].date}</MainSlideText>
-                </CurrentSlide>
-                <SideSlide slideData={slides[currentIndex + 1] ? slides[currentIndex + 1] : slides[0]}>
-                    <ScrollButton onClick={() => HandleScrollClick('next')} side='right'>↷</ScrollButton>
-                </SideSlide>
-            </InnerWrapper>
-        </OuterWrapper>
+        <div>
+            <p>
+                We are visual creatures, here are some pictures of myself throughout the years.
+            </p>
+            <OuterWrapper>
+                <InnerWrapper>
+                    <SideSlide slideData={slides[currentIndex - 1] ? slides[currentIndex - 1] : slides[slides.length - 1]}>
+                        <ScrollButton onClick={() => HandleScrollClick('prev')} side='left '>↶</ScrollButton>
+                    </SideSlide>
+                    <CurrentSlide slideData={slides[currentIndex]}>
+                        <MainSlideText>{slides[currentIndex].date}</MainSlideText>
+                    </CurrentSlide>
+                    <SideSlide slideData={slides[currentIndex + 1] ? slides[currentIndex + 1] : slides[0]}>
+                        <ScrollButton onClick={() => HandleScrollClick('next')} side='right'>↷</ScrollButton>
+                    </SideSlide>
+                </InnerWrapper>
+            </OuterWrapper>
+            <p>
+                {slides[currentIndex].desc}
+            </p>
+        </div>
     )
 }
 
