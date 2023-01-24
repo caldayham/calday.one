@@ -18,7 +18,7 @@ const AboutPage = () => {
         <br/>
         You are experiencing something, its significance is up for debate, this is the way things are.
         <br/>
-        If you are spending more than 4 hours of your day on an application that optimizes for your attention and not your learning and growth, you will find it quite hard to achieve high levels of attainment.
+        If you are spending more than 4 hours of your day on an application that optimizes for your attention and not your learning and growth, you will find it quite hard to achieve high levels of ability.
       </p>
     </ContentWrapper>
   )
