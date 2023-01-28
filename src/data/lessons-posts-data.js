@@ -8,39 +8,35 @@ export const lessonsPostsData = [
         htmlRef: '/posts/basic-finance.html'
     },
     {
-        title: '',
+        title: 'Defining Purpose',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
     {
-        title: '',
+        title: 'Learn Something New',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
     {
-        title: '',
+        title: 'Raise Rabbits',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
+    },
+    {
+        title: 'Working Out',
+        desc: '',
+        thumbnailUrl: '',
+        date: '',
+        tags: [''],
+        htmlRef: '/posts/x.html'
     },
 ];

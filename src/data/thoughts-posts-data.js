@@ -1,50 +1,34 @@
 export const thoughtsPostsData = [
     {
-        title: 'Addiction and Choosing Experiences to Try',
+        title: 'Negative Addictions',
         desc: '',
         thumbnailUrl: '',
         date: '',
-        tags: ['thought', 'life'],
-        html: `
-            <div>
-                In general I think you should stay open to new experiences. That said, trying some things may result in a lock-out effect due to addiction.
-            </div>
-        `
+        tags: ['lesson', 'finance'],
+        htmlRef: '/posts/negative-addictions.html'
     },
     {
-        title: '',
+        title: 'Purpose in Life',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
     {
-        title: '',
+        title: 'Psychedelics',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
     {
-        title: '',
+        title: 'Agential Materials and Hierarchies',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
 ];

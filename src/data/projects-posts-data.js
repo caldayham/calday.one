@@ -1,50 +1,34 @@
 export const projectsPostsData = [
     {
-        title: 'Operational Strandbeest',
+        title: 'Strandbeest',
         desc: '',
         thumbnailUrl: '',
         date: '',
-        tags: ['project', 'metal'],
-        html: `
-            <div>
-                This is a project I designed and built.
-            </div>
-        `
+        tags: ['project', 'welding'],
+        htmlRef: '/posts/strandbeest.html'
     },
     {
-        title: '',
+        title: 'Cockroach Farm',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
     {
-        title: '',
+        title: 'Personal Website',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
     {
-        title: '',
+        title: 'Personal Computer',
         desc: '',
         thumbnailUrl: '',
         date: '',
         tags: [''],
-        html: `
-            <div>
-                Hello world.
-            </div>
-        `
+        htmlRef: '/posts/x.html'
     },
 ];

@@ -1,8 +1,15 @@
 import React from 'react'
+import { PostsWrapper, PostWrapper } from './postsStyles'
 
-const Posts = ({tags, count, date}) => {
+const Posts = ({ displayedPosts }) => {
   return (
-    <div>Posts</div>  
+    <PostsWrapper>
+      {displayedPosts.map((post) => (
+        <PostWrapper>
+          <h1>{post.title}</h1>
+        </PostWrapper>
+      ))}
+    </PostsWrapper>
   )
 }
 
