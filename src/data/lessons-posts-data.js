@@ -5,11 +5,7 @@ export const lessonsPostsData = [
         thumbnailUrl: '',
         date: '',
         tags: ['lesson', 'finance'],
-        html: `
-            <div>
-                This is a lesson on basic finance.
-            </div>
-        `
+        htmlRef: '/posts/basic-finance.html'
     },
     {
         title: '',

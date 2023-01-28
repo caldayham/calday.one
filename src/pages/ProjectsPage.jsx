@@ -1,21 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Posts from '../components/Posts/Posts'
 import { ContentWrapper } from '../elements/containers'
 
 const ProjectsPage = () => {
+
+  const [tags, setTags] = useState('');
+
   return (
     <ContentWrapper>
-      <p>
-      public projects posts coming soon!
-      </p>
-      <p>
-        will include:
-        <br/>
-        - rideable strandbeest
-        - cockroach incubator
-        - rabbit farming setup
-        - security key container
-      </p>
-      </ContentWrapper>
+      <Posts tags={tags}></Posts>
+    </ContentWrapper>
   )
 }
 

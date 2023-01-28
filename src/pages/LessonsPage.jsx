@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Posts from '../components/Posts/Posts';
 import { ContentWrapper } from '../elements/containers'
 
 const LessonsPage = () => {
+
+  const [tags, setTags] = useState('');
+
   return (
-    <ContentWrapper>public lessons posts coming soon!</ContentWrapper>
+    <ContentWrapper>
+      <Posts tags={tags}></Posts>
+    </ContentWrapper>
   )
 }
 

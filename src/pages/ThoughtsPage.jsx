@@ -1,9 +1,16 @@
 import React from 'react'
+import { useState } from 'react'
+import Posts from '../components/Posts/Posts'
 import { ContentWrapper } from '../elements/containers'
 
 const ThoughtsPage = () => {
+
+  const [tags, setTags] = useState('');
+
   return (
-    <ContentWrapper>public thoughts posts coming soon! check my github notes for now</ContentWrapper>
+    <ContentWrapper>
+      <Posts tags={tags}></Posts>
+    </ContentWrapper>
   )
 }
 

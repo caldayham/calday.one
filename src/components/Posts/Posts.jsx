@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Posts = () => {
+const Posts = ({tags, count, date}) => {
   return (
-    <div>Posts</div>
+    <div>Posts</div>  
   )
 }
 

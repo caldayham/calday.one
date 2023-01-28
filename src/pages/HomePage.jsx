@@ -34,6 +34,21 @@ const HomePage = () => {
                 <h3>Images of Cal</h3>
                 <ImgCarousel slides={calImgData} />
             </section>
+            <br/>
+            <h3>Links to Friends / Good Sites</h3>
+            <div>
+                <a href='https://bugswriter.com'target='_blank' rel="noreferrer">Bugswriter</a>
+                {' - '}
+                <a href='https://www.hayesraffle.com/'target='_blank' rel="noreferrer">Hayes Raffle</a>
+                {' - '}
+                <a href='https://landchad.net//'target='_blank' rel="noreferrer">Landchad.net</a>
+                {' - '}
+                <a href='https://berkshirehathaway.com/'target='_blank' rel="noreferrer">Berkshire Hathaway</a>
+                {' - '}
+                <a href='https://amazon.com/'target='_blank' rel="noreferrer">Amazon</a>
+                {' - '}
+                <a href='https://google.com/'target='_blank' rel="noreferrer">Google</a>
+            </div>
         </ContentWrapper>
     )
 }
