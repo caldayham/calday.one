@@ -26,10 +26,18 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     link {
-        color: ${props => props.theme.link};
+        color: ${props => props.theme.links};
     }
 
     h1 {
-        color: ${props => props.theme.link};
+        color: ${props => props.theme.text};
+    }
+    
+    p {
+        color: ${props => props.theme.text};
+    }
+    
+    a {
+        color: ${props => props.theme.links};
     }
 `;

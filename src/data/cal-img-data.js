@@ -80,6 +80,12 @@ export const calImgData = [
         path: '/images/2011-cal-fynn-skip.jpg',
     },
     {
+        title: 'cal-fynn-pen-violet',
+        desc: 'Some ice cream with friends and family at the old apartment complex.',
+        date: '2008',
+        path: '/images/2008-cal-fynn-pen-violet.jpg',
+    },
+    {
         title: 'cal and friends',
         desc: 'Just a bunch of toddlers giggling about some funny looking adult behind a camera.',
         date: '2004',
