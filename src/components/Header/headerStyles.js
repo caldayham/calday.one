@@ -30,7 +30,7 @@ const SearchInput = styled.input`
     border: 1px solid ${props => props.theme.text};
     padding: 4px;
     border-radius: 4px;
-    color: ${props => props.theme.text};
+    color: ${props => props.theme.text};  
     outline: none;
 `;
 const SearchButton = styled.button`

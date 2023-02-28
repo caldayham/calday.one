@@ -7,6 +7,7 @@ const Posts = ({ displayedPosts }) => {
       {displayedPosts.map((post) => (
         <PostWrapper>
           <h1>{post.title}</h1>
+          <p>{post.desc}</p>
         </PostWrapper>
       ))}
     </PostsWrapper>

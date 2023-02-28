@@ -1,7 +1,7 @@
 export const lessonsPostsData = [
     {
         title: 'Basic Finance',
-        desc: '',
+        desc: 'Finance is an interesting area due to the draw of grifters and, in turn, an overproduction of shitty content.',
         thumbnailUrl: '',
         date: '',
         tags: ['lesson', 'finance'],

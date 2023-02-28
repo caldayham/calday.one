@@ -43,7 +43,7 @@ const CurrentSlide = styled.div`
 
 const MainSlideText = styled.h1`
     color: white;
-    font-size: 52px;
+    font-size: 8vw;
     vertical-align: bottom;
     height: 40px;
 `;
@@ -54,7 +54,7 @@ const ScrollButton = styled.button`
     border: none;
     border-radius: 10px;
     background: rgb(255,255,255,0.4);
-    font-size: 52px;
+    font-size: 8vw;
     font-weight: 600;
     color: white;
 `;
